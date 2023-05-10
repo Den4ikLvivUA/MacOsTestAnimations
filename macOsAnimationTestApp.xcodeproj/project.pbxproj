@@ -16,6 +16,7 @@
 		BC13AFFD2A0B8C6C00879D8F /* macOsAnimationTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC13AFFC2A0B8C6C00879D8F /* macOsAnimationTestAppTests.swift */; };
 		BC13B0072A0B8C6C00879D8F /* macOsAnimationTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC13B0062A0B8C6C00879D8F /* macOsAnimationTestAppUITests.swift */; };
 		BC13B0092A0B8C6C00879D8F /* macOsAnimationTestAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC13B0082A0B8C6C00879D8F /* macOsAnimationTestAppUITestsLaunchTests.swift */; };
+		BC13B0162A0B8F7600879D8F /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC13B0152A0B8F7600879D8F /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BC13B0022A0B8C6C00879D8F /* macOsAnimationTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macOsAnimationTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC13B0062A0B8C6C00879D8F /* macOsAnimationTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOsAnimationTestAppUITests.swift; sourceTree = "<group>"; };
 		BC13B0082A0B8C6C00879D8F /* macOsAnimationTestAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOsAnimationTestAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BC13B0152A0B8F7600879D8F /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				BC13AFF32A0B8C6C00879D8F /* macOsAnimationTestApp.entitlements */,
 				BC13AFF02A0B8C6C00879D8F /* macOsAnimationTestApp.xcdatamodeld */,
 				BC13AFEB2A0B8C6C00879D8F /* Preview Content */,
+				BC13B0152A0B8F7600879D8F /* CustomView.swift */,
 			);
 			path = macOsAnimationTestApp;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC13B0162A0B8F7600879D8F /* CustomView.swift in Sources */,
 				BC13AFEF2A0B8C6C00879D8F /* Persistence.swift in Sources */,
 				BC13AFE82A0B8C6B00879D8F /* ContentView.swift in Sources */,
 				BC13AFF22A0B8C6C00879D8F /* macOsAnimationTestApp.xcdatamodeld in Sources */,
